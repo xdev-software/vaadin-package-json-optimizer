@@ -1,7 +1,7 @@
 [![Latest version](https://img.shields.io/maven-central/v/software.xdev/vaadin-package-json-optimizer?logo=apache%20maven)](https://mvnrepository.com/artifact/software.xdev/vaadin-package-json-optimizer)
 [![Build](https://img.shields.io/github/actions/workflow/status/xdev-software/vaadin-package-json-optimizer/check-build.yml?branch=develop)](https://github.com/xdev-software/vaadin-package-json-optimizer/actions/workflows/check-build.yml?query=branch%3Adevelop)
 
-# vaadin-package-json-optimizer
+# `package.json` optimizer for Vaadin
 
 
 ## Installation
