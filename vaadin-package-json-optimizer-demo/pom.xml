@@ -149,6 +149,23 @@
 					<frontendHotdeploy>false</frontendHotdeploy>
 					<!-- Prevent scanning for react (not used) -->
 					<reactEnable>false</reactEnable>
+					<!-- Only scan required -->
+					<frontendScanner>
+						<includes>
+							<include>
+								<groupId>software.xdev</groupId>
+								<artifactId>*vaadin*</artifactId>
+							</include>
+							<include>
+								<groupId>com.vaadin</groupId>
+							</include>
+						</includes>
+						<excludes>
+							<exclude>
+								<groupId>com.vaadin.external*</groupId>
+							</exclude>
+						</excludes>
+					</frontendScanner>
 				</configuration>
 			</plugin>
 			<plugin>
