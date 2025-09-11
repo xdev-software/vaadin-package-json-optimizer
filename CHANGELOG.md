@@ -1,3 +1,3 @@
 1.0.0
 
-_Init_
+_Initial release_
