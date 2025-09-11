@@ -1,6 +1,6 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="Run Demo" type="Application" factoryName="Application">
-    <option name="MAIN_CLASS_NAME" value="software.xdev.Application" />
+    <option name="MAIN_CLASS_NAME" value="software.xdev.vaadin.Application" />
     <module name="vaadin-package-json-optimizer-demo" />
     <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
     <extension name="coverage">
