@@ -5,20 +5,20 @@
 	<modelVersion>4.0.0</modelVersion>
 
 	<groupId>software.xdev</groupId>
-	<artifactId>template-placeholder</artifactId>
+	<artifactId>vaadin-package-json-optimizer</artifactId>
 	<version>1.0.0-SNAPSHOT</version>
 	<packaging>jar</packaging>
 
-	<name>template-placeholder</name>
-	<description>template-placeholder</description>
-	<url>https://github.com/xdev-software/template-placeholder</url>
+	<name>vaadin-package-json-optimizer</name>
+	<description>vaadin-package-json-optimizer</description>
+	<url>https://github.com/xdev-software/vaadin-package-json-optimizer</url>
 
 	<scm>
-		<url>https://github.com/xdev-software/template-placeholder</url>
-		<connection>scm:git:https://github.com/xdev-software/template-placeholder.git</connection>
+		<url>https://github.com/xdev-software/vaadin-package-json-optimizer</url>
+		<connection>scm:git:https://github.com/xdev-software/vaadin-package-json-optimizer.git</connection>
 	</scm>
 
-	<inceptionYear>2023</inceptionYear>
+	<inceptionYear>2025</inceptionYear>
 
 	<organization>
 		<name>XDEV Software</name>
@@ -48,6 +48,67 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 	</properties>
+
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>org.springframework.boot</groupId>
+				<artifactId>spring-boot-dependencies</artifactId>
+				<version>3.5.5</version>
+				<type>pom</type>
+				<scope>import</scope>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
+
+	<dependencies>
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-core</artifactId>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.fasterxml.jackson.core</groupId>
+			<artifactId>jackson-databind</artifactId>
+			<scope>compile</scope>
+		</dependency>
+		<dependency>
+			<groupId>com.fasterxml.jackson.datatype</groupId>
+			<artifactId>jackson-datatype-jsr310</artifactId>
+			<scope>compile</scope>
+		</dependency>
+
+		<!-- Dev mode -->
+		<dependency>
+			<groupId>org.slf4j</groupId>
+			<artifactId>slf4j-api</artifactId>
+			<scope>provided</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework</groupId>
+			<artifactId>spring-context</artifactId>
+			<scope>provided</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>jakarta.validation</groupId>
+			<artifactId>jakarta.validation-api</artifactId>
+			<scope>provided</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-autoconfigure</artifactId>
+			<scope>provided</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>jakarta.servlet</groupId>
+			<artifactId>jakarta.servlet-api</artifactId>
+			<scope>provided</scope>
+		</dependency>
+	</dependencies>
 
 	<build>
 		<pluginManagement>
