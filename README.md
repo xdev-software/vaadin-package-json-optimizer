@@ -12,7 +12,7 @@ As of Vaadin 24.8 this results in the following:
 * 80MB fewer required storage space (-40%): ~210MB → ~130MB
 * overall faster build/`npm install` by processing/downloading less packages
 
-Please note that this is currently intended as a stopgap measure until Vaadin implements improvements upstream.
+Please note that this is currently intended as a stopgap measure until Vaadin implements [improvements upstream](https://github.com/vaadin/flow/issues/22207).
 
 <details><summary>Currently these npm package groups are overwritten with an empty package</summary>
 
