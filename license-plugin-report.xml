@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<licensePluginReport goal="FORMAT" timestamp="1757593252651">
+    <module artifactId="vaadin-package-json-optimizer" groupId="software.xdev" version="1.0.0"/>
+    <files>
+        <file path="src/main/java/software/xdev/vaadin/vpjo/Launcher.java" result="NOOP"/>
+        <file path="src/main/java/software/xdev/vaadin/vpjo/VPJOptimizer.java" result="NOOP"/>
+        <file path="src/main/java/software/xdev/vaadin/vpjo/dev/VPJODevConfig.java" result="NOOP"/>
+        <file path="src/main/java/software/xdev/vaadin/vpjo/dev/VPJODevRunner.java" result="NOOP"/>
+        <file path="src/main/java/software/xdev/vaadin/vpjo/dev/auto/VPJOVaadinDevAutoConfig.java" result="NOOP"/>
+        <file path="src/main/java/software/xdev/vaadin/vpjo/internal/JacksonUtils.java" result="NOOP"/>
+    </files>
+</licensePluginReport>
