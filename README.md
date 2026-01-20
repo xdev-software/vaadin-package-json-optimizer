@@ -3,6 +3,11 @@
 
 # `package.json` optimizer for Vaadin
 
+> [!WARNING]
+> Deprecated!<br/>
+> As of Vaadin 25 this module is no longer supported.<br/>
+> Please use pnpm and [`pnpm-workspace.yaml`](https://github.com/xdev-software/vaadin-addon-template/blob/master/template-placeholder-demo/pnpm-workspace.yaml) instead
+
 Patches `package.json` and replaces unused packages with an empty package.
 
 This also prevents the installation of the corresponding transitive dependencies and lowers the overall attack surface.
